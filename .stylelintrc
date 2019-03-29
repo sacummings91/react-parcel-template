@@ -1,0 +1,19 @@
+{
+  "processors": ["stylelint-processor-styled-components"],
+  "syntax": "scss",
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-styled-components"
+  ],
+  "plugins": [
+    "stylelint-order"
+  ],
+  "rules": {
+    "order/order": [
+      "custom-properties",
+      "declarations"
+    ],
+    "order/properties-alphabetical-order": true,
+    "selector-list-comma-newline-after": "never-multi-line"
+  }
+}

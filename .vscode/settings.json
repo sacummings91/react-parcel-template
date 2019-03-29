@@ -1,0 +1,32 @@
+{
+  "css.validate": false,
+  "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": false,
+  "eslint.enable": true,
+  "eslint.options": {},
+  "eslint.run": "onType",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact"
+  ],
+  "prettier.arrowParens": "avoid",
+  "prettier.bracketSpacing": true,
+  "prettier.jsxBracketSameLine": true,
+  "prettier.parser": "babylon",
+  "prettier.printWidth": 80,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "none",
+  "prettier.useTabs": false,
+  "scss.validate": false,
+  "stylelint.additionalDocumentSelectors": [
+    "javascript",
+    "javascriptreact"
+  ],
+  "stylelint.config": null,
+  "stylelint.configOverrides": {
+    "javascript.validate.syntaxValidation": true
+  },
+  "stylelint.enable": true
+}
